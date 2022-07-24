@@ -35,9 +35,9 @@ Vous serez "noté" en tenant compte de la clarté de votre code, de la façon do
 
 À ce niveau, vous devez avoir un site fonctionnel avec une barre de titre contenant un lien Accueil (cette barre ne doit masquer aucun élément du site Web).
 
-La page principale (Accueil) doit afficher les posts itres des 10 premiers messages et les informations de base des utilisateurs (nom d'utilisateur).
+La page principale (Accueil) doit afficher les titres des 10 premiers comments et les informations de base des utilisateurs (nom d'utilisateur).
 
-Les articles répertoriés dans la page d'accueil doivent être cliquables et conduire à l'affichage d'informations détaillées (telles que le titre, le contenu).
+Les posts répertoriés dans la page d'accueil doivent être cliquables et conduire à l'affichage d'informations détaillées (telles que le titre, le contenu).
 
 Vous n'êtes pas invité à fournir des modifications d'URL, mais si vous le faites, ce serait formidable.
 
