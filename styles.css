@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 #comments, #users {
     width: 100%;
     display: flex;
@@ -10,24 +9,18 @@
     align-items: center;
     justify-content: center;
 }
-
-#example {
-    background-color: rgb(178, 13, 13);
-}
-
 .display{
     display: block;
 }
-
 nav {
     display: block;
     width: 100vw;
-    height: 70px;
+    height: 11vh;
     background-color: rgb(123, 177, 130);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 9vh;
 }
 nav a {
     text-decoration: none;
@@ -36,13 +29,10 @@ nav a {
     font-weight: bold;
 
 }
-
 #data {
     width: 100vw;
     display: flex;
-    /* grid-auto-rows: minmax(100px, auto); */
 }
-
 .div-title{
     text-align: center;
     font-size: 22px;
@@ -50,7 +40,6 @@ nav a {
     color: black;
     margin-bottom: 40px;
 }
-
 .div-content {
     background-color: antiquewhite;
     width: 400px;
@@ -58,23 +47,18 @@ nav a {
     padding: 20px;
     margin-bottom: 10px;
 }
-
 #comments a {
     text-decoration: none;
     color: black;
     font-size: 16px;
     font-weight: bold;
 }
-
 .content-title {
     color: darkcyan;
 }
-
 .bold {
     font-weight: bold;
 }
-
-
 .pagination {
     display: inline-block;
     margin-bottom: 40px;
@@ -90,49 +74,47 @@ nav a {
     cursor: pointer;
     background-color: antiquewhite;
 }
-  
 .pagination button.active {
     background-color: rgb(123, 177, 130);
     color: white;
     border: 1px solid rgb(123, 177, 130);
 }
-  
-.pagination button:hover:not(.active) {background-color: #ddd;}
-
+.pagination button:hover:not(.active) {
+    background-color: #ddd;
+}
 #post {
     width: 400px;
     height: 300px;
     background-color: antiquewhite;
     padding: 30px;
 }
-
-
 .container-post {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 #comts {
     width: 400px;
     height: 300px;
     overflow-y: scroll;
     background-color: rgb(112, 74, 24);
     padding: 30px;
-
 }
-
 .comment-title {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 30px;
 }
-
 .content-comments {
     font-size: 16px;
     margin-bottom: 20px;
     background-color: rgb(196, 168, 183, 0.3);
     padding: 10px;
+}
+
+.photo{
+    width: 100px;
+    margin-bottom: 10px;
 }
