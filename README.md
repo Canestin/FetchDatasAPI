@@ -1,12 +1,6 @@
 # FetchDatasAPI
 
-# Instructions
-
-## MiniReddit
-
-The purpose of this exercise is to test frontend skills with javascript and HTML.
-
-## Resources
+## Instructions
 
 ON will use the https://jsonplaceholder.typicode.com/ API to get post comments and user insights.
 
