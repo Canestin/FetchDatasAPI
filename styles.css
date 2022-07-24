@@ -101,6 +101,7 @@ nav a {
 
 #post {
     width: 400px;
+    height: 300px;
     background-color: antiquewhite;
     padding: 30px;
 }
@@ -112,4 +113,26 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#comts {
+    width: 400px;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: rgb(112, 74, 24);
+    padding: 30px;
+
+}
+
+.comment-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.content-comments {
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: rgb(196, 168, 183, 0.3);
+    padding: 10px;
 }
