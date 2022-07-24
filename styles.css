@@ -1,7 +1,115 @@
-#users {
-    background-color: rgb(123, 177, 130);
+*{
+    margin: 0;
+    padding: 0;
 }
 
-#comments {
-    background-color: rgb(193, 166, 201);
+#comments, #users {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#example {
+    background-color: rgb(178, 13, 13);
+}
+
+.display{
+    display: block;
+}
+
+nav {
+    display: block;
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(123, 177, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#data {
+    width: 100vw;
+    display: flex;
+    /* grid-auto-rows: minmax(100px, auto); */
+}
+
+.div-title{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.div-content {
+    background-color: antiquewhite;
+    width: 400px;
+    height: 70px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#comments a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content-title {
+    color: darkcyan;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.pagination {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+  
+.pagination button {
+    color: black;
+    float: left;
+    padding: 10px 13px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+  
+.pagination button.active {
+    background-color: rgb(123, 177, 130);
+    color: white;
+    border: 1px solid rgb(123, 177, 130);
+}
+  
+.pagination button:hover:not(.active) {background-color: #ddd;}
+
+#post {
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+
+.container-post {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <script src="script.js" defer></script>
+    <script src="home.js" defer></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,11 +13,7 @@
     <section id="home">
         <header>
             <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                <a href="home.html">Home</a>
             </nav>
         </header>
 
@@ -25,13 +21,32 @@
         <div id="data">
 
             <div id="comments">
-                <span> Les dix premiers commentaires sont :  </span> <br> <br>
+
+                <div class="pagination">
+                    <!-- <button id="moins">&raquo;</button> -->
+                    <button id="1" class="active">1</button>
+                    <button id="2">2</button>
+                    <button id="3">3</button>
+                    <button id="4">4</button>
+                    <button id="5">5</button>
+                    <button id="6">6</button>
+                    <button id="7">7</button>
+                    <button id="8">8</button>
+                    <button id="9">9</button>
+                    <button id="10">10</button>
+                    <!-- <button id="plus">&raquo;</button> -->
+                </div>
+
+                <div id="articles">
+
+                </div>
+                
             </div> <br>
 
             <div id="users">
-                <span> Les utilisateurs :  </span> <br> <br>
+                <span class="div-title"> Les utilisateurs  </span> <br> <br>
             </div>
-
+        </div>    
     </section>
     
 </body>
